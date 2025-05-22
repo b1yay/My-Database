@@ -1,0 +1,12 @@
+.vs/
+*.ipch
+*.sdf
+*.suo
+*.VC.db
+*.exe
+*.obj
+*.log
+*.pch
+*.class
+*.out
+*.temp
