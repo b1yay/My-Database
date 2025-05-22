@@ -1,0 +1,48 @@
+﻿  main.cpp
+F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(25,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(1464,45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(233,21): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(233,21):
+  the template instantiation context (the oldest one first) is
+  	F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(552,38):
+  	see reference to class template instantiation 'std::pair<const std::string,BPlusTree<std::string,std::streampos>>' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(466,10):
+  	see reference to class template instantiation 'BPlusTree<std::string,std::streampos>' being compiled
+  	F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(226,23):
+  	while compiling class template member function 'std::vector<ValueType,std::allocator<ValueType>> BPlusTree<std::string,ValueType>::rangeSearch(const KeyType &,const KeyType &)'
+          with
+          [
+              ValueType=std::streampos,
+              KeyType=std::string
+          ]
+  		F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(709,41):
+  		see the first reference to 'BPlusTree<std::string,std::streampos>::rangeSearch' in 'CollectionManager::rangeQuery'
+  
+F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(212,21): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(212,21):
+  the template instantiation context (the oldest one first) is
+  	F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(206,23):
+  	while compiling class template member function 'std::vector<ValueType,std::allocator<ValueType>> BPlusTree<std::string,ValueType>::searchAll(const KeyType &)'
+          with
+          [
+              ValueType=std::streampos,
+              KeyType=std::string
+          ]
+  		F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(895,44):
+  		see the first reference to 'BPlusTree<std::string,std::streampos>::searchAll' in 'CollectionManager::findDocument'
+  
+F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(167,25): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(167,25):
+  the template instantiation context (the oldest one first) is
+  	F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(154,10):
+  	while compiling class template member function 'void BPlusTree<std::string,std::streampos>::insert(const KeyType &,const ValueType &)'
+          with
+          [
+              KeyType=std::string,
+              ValueType=std::streampos
+          ]
+  		F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(786,65):
+  		see the first reference to 'BPlusTree<std::string,std::streampos>::insert' in 'CollectionManager::createIndex'
+  
+F:\semster 4\adbms\NoSQLDatabase\NoSQLDatabase\main.cpp(172,21): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  NoSQLDatabase.vcxproj -> F:\semster 4\adbms\NoSQLDatabase\x64\Debug\NoSQLDatabase.exe
